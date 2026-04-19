@@ -1,0 +1,354 @@
+2026-04-18 16:45:42 | INFO | Loading embedding model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-04-18 16:45:42 | INFO | (First time takes ~2 mins to download the model — cached after that)
+2026-04-18 16:46:14 | INFO | No device provided, using cpu
+2026-04-18 16:46:15 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:15 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:15 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:15 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:15 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:15 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:15 | INFO | Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-04-18 16:46:16 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:16 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:16 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:16 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-18 16:46:16 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-04-18 16:46:16 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-04-18 16:46:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:17 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:17 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:17 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:18 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-04-18 16:46:19 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/xet-read-token/e8f8c211226b894fcb81acc59f3b34ba3efd5f42 "HTTP/1.1 200 OK"
+2026-04-18 16:46:36 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:37 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:37 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:37 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:38 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:38 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:38 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:38 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:38 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:38 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:38 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:39 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:39 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:39 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:39 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:39 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:40 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-18 16:46:40 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer.json "HTTP/1.1 302 Found"
+2026-04-18 16:46:41 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer.model "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:41 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:42 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:42 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:42 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:42 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-04-18 16:46:45 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-18 16:46:46 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-18 16:46:46 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:46 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-18 16:46:46 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-18 16:46:46 | INFO | Loading faiss with AVX2 support.
+2026-04-18 16:46:47 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-18 16:46:47 | INFO | Created fresh FAISS index
+2026-04-18 16:46:47 | INFO | =======================================================
+2026-04-18 16:46:47 | INFO | KRISHI-SETU PIPELINE STARTING
+2026-04-18 16:46:47 | INFO | Time: 2026-04-18 16:46:47
+2026-04-18 16:46:47 | INFO | =======================================================
+2026-04-18 16:46:47 | INFO | 
+[1/5] Fetching live data from myScheme API...
+2026-04-18 16:46:47 | INFO | Fetching schemes with tag: 'Agriculture, Rural & Environment'
+2026-04-18 16:46:50 | WARNING |   All API URLs failed for tag 'Agriculture, Rural & Environment', page 1
+2026-04-18 16:46:50 | INFO | Fetching schemes with tag: 'agriculture'
+2026-04-18 16:46:51 | WARNING |   All API URLs failed for tag 'agriculture', page 1
+2026-04-18 16:46:51 | INFO | Fetching schemes with tag: 'farmer'
+2026-04-18 16:46:53 | WARNING |   All API URLs failed for tag 'farmer', page 1
+2026-04-18 16:46:53 | INFO | Fetching schemes with tag: 'kisan'
+2026-04-18 16:46:55 | WARNING |   All API URLs failed for tag 'kisan', page 1
+2026-04-18 16:46:55 | INFO | Total unique schemes fetched: 0
+2026-04-18 16:46:55 | ERROR | No schemes fetched. Check internet connection.
+2026-04-19 11:30:21 | INFO | Loading embedding model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-04-19 11:31:34 | INFO | No device provided, using cpu
+2026-04-19 11:31:35 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:35 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-19 11:31:35 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:35 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:35 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:35 | INFO | Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-04-19 11:31:36 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:36 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:36 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:36 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-04-19 11:31:36 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:36 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:37 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:37 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:37 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 11:31:38 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:38 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:38 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 11:31:39 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 11:31:39 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 11:31:39 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 11:31:40 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:40 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:40 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:40 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:40 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:40 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:41 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:41 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:41 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:41 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:41 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-19 11:31:42 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-19 11:31:46 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-19 11:31:46 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 11:31:46 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-19 11:31:47 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-19 11:31:47 | INFO | Loading faiss with AVX2 support.
+2026-04-19 11:31:47 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-19 11:31:47 | INFO | Created fresh FAISS index (384 dimensions)
+2026-04-19 11:31:47 | INFO | =======================================================
+2026-04-19 11:31:47 | INFO | KRISHI-SETU LIVE PIPELINE STARTING
+2026-04-19 11:31:47 | INFO | Time: 2026-04-19 11:31:47
+2026-04-19 11:31:47 | INFO | =======================================================
+2026-04-19 11:31:47 | INFO | 
+[1/5] Discovering scheme URLs from myscheme.gov.in sitemap...
+2026-04-19 11:31:47 | INFO | Fetching sitemap index: https://www.myscheme.gov.in/sitemap.xml
+2026-04-19 11:31:49 | INFO | Found 2 sub-sitemaps: ['https://www.myscheme.gov.in/sitemap-0.xml', 'https://www.myscheme.gov.in/sitemap.xml']
+2026-04-19 11:31:49 | INFO | Fetching sub-sitemap: https://www.myscheme.gov.in/sitemap-0.xml
+2026-04-19 11:31:49 | INFO |   → 0 scheme URLs found
+2026-04-19 11:31:49 | INFO | Fetching sub-sitemap: https://www.myscheme.gov.in/sitemap.xml
+2026-04-19 11:31:49 | INFO |   → 0 scheme URLs found
+2026-04-19 11:31:49 | INFO | Total unique scheme URLs: 0
+2026-04-19 11:31:49 | INFO | Will scrape 0 schemes this run (max_schemes=50)
+2026-04-19 11:31:49 | ERROR | No scheme URLs found. Check internet connection.
+2026-04-19 12:20:08 | INFO | Fetching sitemap index: https://www.myscheme.gov.in/sitemap.xml
+2026-04-19 12:20:09 | INFO | Found 2 sub-sitemaps: ['https://www.myscheme.gov.in/sitemap-0.xml', 'https://www.myscheme.gov.in/sitemap.xml']
+2026-04-19 12:20:09 | INFO | Fetching sub-sitemap: https://www.myscheme.gov.in/sitemap-0.xml
+2026-04-19 12:20:09 | INFO |   → 0 scheme URLs found
+2026-04-19 12:20:10 | INFO | Fetching sub-sitemap: https://www.myscheme.gov.in/sitemap.xml
+2026-04-19 12:20:10 | INFO |   → 0 scheme URLs found
+2026-04-19 12:20:10 | INFO | Total unique scheme URLs: 0
+2026-04-19 12:40:51 | INFO | Loading embedding model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-04-19 12:41:17 | INFO | No device provided, using cpu
+2026-04-19 12:41:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:18 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-19 12:41:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:18 | INFO | Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-04-19 12:41:19 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:19 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:19 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:19 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-04-19 12:41:19 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:19 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:19 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:19 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:20 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:20 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:20 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:21 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:21 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:21 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:22 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:22 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:22 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:22 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:22 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:22 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:23 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:23 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:23 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:23 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:23 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:24 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:24 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-19 12:41:27 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-19 12:41:28 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:28 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-19 12:41:28 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-19 12:41:28 | INFO | Embedding model ready
+2026-04-19 12:41:28 | INFO | Loading faiss with AVX2 support.
+2026-04-19 12:41:28 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-19 12:41:28 | INFO | Created fresh FAISS index (384 dims)
+2026-04-19 12:41:28 | INFO | =======================================================
+2026-04-19 12:41:28 | INFO | KRISHI-SETU LIVE PIPELINE STARTING
+2026-04-19 12:41:28 | INFO | Time: 2026-04-19 12:41:28
+2026-04-19 12:41:28 | INFO | Max schemes this run: 50
+2026-04-19 12:41:28 | INFO | =======================================================
+2026-04-19 12:41:28 | INFO | 
+[1/5] Loading scheme URLs...
+2026-04-19 12:41:28 | INFO | Loading scheme slugs from HuggingFace registry...
+2026-04-19 12:41:28 | ERROR | `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'shrijayan/gov_myscheme' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-19 12:41:29 | INFO | HTTP Request: HEAD https://huggingface.co/datasets/shrijayan/gov_myscheme/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:29 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/shrijayan/gov_myscheme/2e7a91a1cd99c40d6a584b237022116fa21d2e88/README.md "HTTP/1.1 200 OK"
+2026-04-19 12:41:29 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/shrijayan/gov_myscheme/2e7a91a1cd99c40d6a584b237022116fa21d2e88/README.md "HTTP/1.1 200 OK"
+2026-04-19 12:41:30 | INFO | HTTP Request: HEAD https://huggingface.co/datasets/shrijayan/gov_myscheme/resolve/2e7a91a1cd99c40d6a584b237022116fa21d2e88/gov_myscheme.py "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:30 | INFO | HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/shrijayan/gov_myscheme/shrijayan/gov_myscheme.py "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:31 | INFO | HTTP Request: GET https://huggingface.co/api/datasets/shrijayan/gov_myscheme/revision/2e7a91a1cd99c40d6a584b237022116fa21d2e88 "HTTP/1.1 200 OK"
+2026-04-19 12:41:31 | INFO | HTTP Request: HEAD https://huggingface.co/datasets/shrijayan/gov_myscheme/resolve/2e7a91a1cd99c40d6a584b237022116fa21d2e88/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:32 | INFO | HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=shrijayan/gov_myscheme "HTTP/1.1 500 Internal Server Error"
+2026-04-19 12:41:32 | INFO | HTTP Request: GET https://huggingface.co/api/datasets/shrijayan/gov_myscheme/tree/2e7a91a1cd99c40d6a584b237022116fa21d2e88/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:32 | INFO | HTTP Request: GET https://huggingface.co/api/datasets/shrijayan/gov_myscheme/tree/2e7a91a1cd99c40d6a584b237022116fa21d2e88?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-04-19 12:41:33 | INFO | HTTP Request: GET https://huggingface.co/api/datasets/shrijayan/gov_myscheme/tree/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-19 12:41:33 | INFO | HTTP Request: GET https://huggingface.co/api/datasets/shrijayan/gov_myscheme/tree/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data?expand=false&recursive=true&limit=1000&cursor=ZXlKbWFXeGxYMjVoYldVaU9pSjBaWGgwWDJSaGRHRXZabUYyYVdFZ1kyOXdlUzV3WkdZaUxDSjBjbVZsWDI5cFpDSTZJbU5oTkdFM05UZ3pNMkk1WkRFMlptSTRZbVkzT1RobE9UVXlOVGxrT0RGbFpqazNaakZsTkdZaWZRPT06MTAwMA%3D%3D "HTTP/1.1 200 OK"
+2026-04-19 12:41:34 | INFO | HTTP Request: GET https://huggingface.co/api/datasets/shrijayan/gov_myscheme/tree/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data?expand=false&recursive=true&limit=1000&cursor=ZXlKbWFXeGxYMjVoYldVaU9pSjBaWGgwWDJSaGRHRXZjR3R6SUdOdmNIa3VjR1JtSWl3aWRISmxaVjl2YVdRaU9pSmpZVFJoTnpVNE16TmlPV1F4Tm1aaU9HSm1Oems0WlRrMU1qVTVaRGd4WldZNU4yWXhaVFJtSW4wPToyMDAw "HTTP/1.1 200 OK"
+2026-04-19 12:41:34 | INFO | HTTP Request: HEAD https://huggingface.co/datasets/shrijayan/gov_myscheme/resolve/2e7a91a1cd99c40d6a584b237022116fa21d2e88/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:41:35 | INFO | HTTP Request: HEAD https://huggingface.co/datasets/shrijayan/gov_myscheme/resolve/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data/rmewf-vocational-training%20copy.pdf "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:35 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/shrijayan/gov_myscheme/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data%2Frmewf-vocational-training%20copy.pdf "HTTP/1.1 200 OK"
+2026-04-19 12:41:35 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/shrijayan/gov_myscheme/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data%2Frmewf-vocational-training%20copy.pdf "HTTP/1.1 200 OK"
+2026-04-19 12:41:35 | INFO | HTTP Request: HEAD https://huggingface.co/datasets/shrijayan/gov_myscheme/resolve/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data/rmewf-vocational-training.pdf "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:35 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/shrijayan/gov_myscheme/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data%2Frmewf-vocational-training.pdf "HTTP/1.1 200 OK"
+2026-04-19 12:41:35 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/shrijayan/gov_myscheme/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data%2Frmewf-vocational-training.pdf "HTTP/1.1 200 OK"
+2026-04-19 12:41:36 | INFO | HTTP Request: HEAD https://huggingface.co/datasets/shrijayan/gov_myscheme/resolve/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data/smile-skill-and-training.pdf "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:41:36 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/shrijayan/gov_myscheme/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data%2Fsmile-skill-and-training.pdf "HTTP/1.1 200 OK"
+2026-04-19 12:41:36 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/shrijayan/gov_myscheme/2e7a91a1cd99c40d6a584b237022116fa21d2e88/text_data%2Fsmile-skill-and-training.pdf "HTTP/1.1 200 OK"
+2026-04-19 12:41:36 | ERROR | datasets library not installed. Run: pip install datasets
+2026-04-19 12:41:36 | ERROR | No scheme URLs loaded. Exiting.
+2026-04-19 12:44:55 | INFO | Loading embedding model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-04-19 12:45:12 | INFO | No device provided, using cpu
+2026-04-19 12:45:14 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:14 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-19 12:45:14 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:14 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:14 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:14 | INFO | Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-04-19 12:45:14 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:14 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:15 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:15 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-04-19 12:45:15 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:15 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:15 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:15 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:16 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:45:16 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:16 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:45:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:45:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:45:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:45:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:19 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:19 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:19 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:19 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:19 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-19 12:45:19 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-19 12:45:23 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-19 12:45:24 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:45:24 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-19 12:45:24 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-19 12:45:24 | INFO | Embedding model ready
+2026-04-19 12:45:24 | INFO | Loading faiss with AVX2 support.
+2026-04-19 12:45:24 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-19 12:45:24 | INFO | Created fresh FAISS index (384 dims)
+2026-04-19 12:45:24 | INFO | =======================================================
+2026-04-19 12:45:24 | INFO | KRISHI-SETU LIVE PIPELINE STARTING
+2026-04-19 12:45:24 | INFO | Time: 2026-04-19 12:45:24
+2026-04-19 12:45:24 | INFO | Max schemes this run: 50
+2026-04-19 12:45:24 | INFO | =======================================================
+2026-04-19 12:45:24 | INFO | 
+[1/5] Loading scheme URLs...
+2026-04-19 12:45:24 | INFO | Loaded 50 agriculture scheme URLs from curated registry
+2026-04-19 12:45:24 | INFO | 
+[2/5] Scraping 50 live scheme pages...
+2026-04-19 12:45:30 | INFO |   10/50 | success: 10 | failed: 0
+2026-04-19 12:45:35 | INFO |   20/50 | success: 20 | failed: 0
+2026-04-19 12:45:39 | INFO |   30/50 | success: 30 | failed: 0
+2026-04-19 12:45:44 | INFO |   40/50 | success: 40 | failed: 0
+2026-04-19 12:45:48 | INFO |   50/50 | success: 50 | failed: 0
+2026-04-19 12:45:49 | INFO | Scraping done — 50 successful, 0 failed/404
+2026-04-19 12:45:49 | INFO | Raw data saved → ./vector_store/raw_schemes.json
+2026-04-19 12:45:49 | INFO | 
+[3/5] Filtering for agriculture schemes...
+2026-04-19 12:45:49 | INFO | Agriculture: 0 / 50 total scraped
+2026-04-19 12:45:49 | WARNING | 0 agriculture schemes found. Try --max 200 to scrape more.
+2026-04-19 12:45:49 | INFO | Tip: raw_schemes.json saved — check what was scraped.
+2026-04-19 12:53:51 | INFO | Loading embedding model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-04-19 12:54:11 | INFO | No device provided, using cpu
+2026-04-19 12:54:12 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:12 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:13 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:13 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:13 | INFO | Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-04-19 12:54:13 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:13 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:13 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:13 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-04-19 12:54:14 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:14 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:14 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:14 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-19 12:54:14 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:14 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:54:15 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:15 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:15 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:54:16 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:54:16 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:54:16 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-19 12:54:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:17 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:17 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:17 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:17 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:18 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:18 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:18 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-19 12:54:18 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-19 12:54:22 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-19 12:54:23 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-19 12:54:23 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-19 12:54:23 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-04-19 12:54:23 | INFO | Embedding model ready
+2026-04-19 12:54:23 | INFO | Loading faiss with AVX2 support.
+2026-04-19 12:54:23 | INFO | Successfully loaded faiss with AVX2 support.
+2026-04-19 12:54:23 | INFO | Created fresh FAISS index (384 dims)
+2026-04-19 12:54:23 | INFO | =======================================================
+2026-04-19 12:54:23 | INFO | KRISHI-SETU LIVE PIPELINE STARTING
+2026-04-19 12:54:23 | INFO | Time: 2026-04-19 12:54:23
+2026-04-19 12:54:23 | INFO | Max schemes this run: 10
+2026-04-19 12:54:23 | INFO | =======================================================
+2026-04-19 12:54:23 | INFO | 
+[1/5] Loading scheme URLs...
+2026-04-19 12:54:23 | INFO | Loaded 10 agriculture scheme URLs from curated registry
+2026-04-19 12:54:23 | INFO | 
+[2/5] Scraping 10 live scheme pages...
+2026-04-19 12:54:32 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/pm-kisan: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:54:37 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/pmfby: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:54:42 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/kcc: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:54:48 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/smam: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:54:57 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/rkvy: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:55:04 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/pkvy: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:55:10 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/nmsa: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:55:14 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/nfsm: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:55:19 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/midh: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:55:24 | WARNING |   Playwright failed for https://www.myscheme.gov.in/schemes/per-drop-more-crop: 'SchemeScraper' object has no attribute '_find_name'
+2026-04-19 12:55:24 | INFO |   10/10 | success: 0 | failed: 10
+2026-04-19 12:55:24 | INFO | Scraping done — 0 successful, 10 failed/404
+2026-04-19 12:55:24 | INFO | Raw data saved → ./vector_store/raw_schemes.json
+2026-04-19 12:55:24 | INFO | 
+[3/5] Filtering for agriculture schemes...
+2026-04-19 12:55:24 | INFO | Agriculture: 0 / 0 total scraped
+2026-04-19 12:55:24 | WARNING | 0 agriculture schemes found. Try --max 200 to scrape more.
+2026-04-19 12:55:24 | INFO | Tip: raw_schemes.json saved — check what was scraped.
